@@ -21,10 +21,10 @@
 // So, we've got that 33 is not a prime number.
 
 // Now let's write this in code:
-// (N.B. given num/integer must be positive. That's why i>1)
+// (N.B. given num/integer must be positive.)
 const primeNum = (num) => {
 	const limit = Math.ceil(Math.sqrt(num));
-	for (i = 2; i > 1 && i <= limit; i++) {
+	for (i = 2; i <= limit; i++) {
 		if (num % i === 0) {
 			return false;
 		}
