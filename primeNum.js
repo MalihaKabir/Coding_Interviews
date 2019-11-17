@@ -24,7 +24,7 @@
 // (N.B. given num/integer must be positive.)
 const primeNum = (num) => {
 	const limit = Math.ceil(Math.sqrt(num));
-	for (i = 2; i <= limit; i++) {
+	for (let i = 2; i <= limit; i++) {
 		if (num % i === 0) {
 			return false;
 		}
