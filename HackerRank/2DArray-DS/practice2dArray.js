@@ -37,7 +37,7 @@ function maxOfHrGlassSum (arr) {
 }
 
 function largestSum (arr) {
-	
+	// initiate sum with the minimum possible sum. So, since -9 is the lowest possible element according to given Constraints, then sum is their sum, which is:
 	let sum = -63;
 	for (let i = 0, n = arr.length; i < n; i++) {
 		// just in case sum is null or something else...
